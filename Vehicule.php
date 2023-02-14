@@ -44,14 +44,17 @@ class Vehicule {
     public function ajouter_pneu_neige($nombre) {
         $this->nombre_pneu_neige += $nombre;
       }
-    
     public function enlever_pneu_neige($nombre) {
         $this->nombre_pneu_neige -= $nombre;
       }
-    
     public function getNombrePneuNeige() {
         return $this->nombre_pneu_neige;
       }
+
+
+    public function ajouter_remorque($longueur_remorque) {
+        $this->longueur += $longueur_remorque;
+    }
 }
 
 ?>
