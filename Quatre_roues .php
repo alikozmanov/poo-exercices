@@ -4,7 +4,7 @@
 class Vehicule extends Quatre_roues {
 
     // déclaration des attributs
-    private $nombre_porte = 5; 
+    private $nombre_porte; 
 
     // méthode publique
     public function repeindre($couleur) { 

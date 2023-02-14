@@ -4,11 +4,11 @@
 class Quatre_roues extends Camion {
     
     // déclaration des attributs
-    private $longeur = 12;
+    private $longeur;
 
     // méthode publique
     public function ajouter_remorque($longueur_remorque) { 
-        $this->longeur += 8;
+        $this->longeur += $longueur_remorque;
     } 
 
 }
