@@ -1,5 +1,9 @@
 
 <?php
+
+// Chargement de la classe 
+include("Vehicule.php");
+
 class Vehicule {
     public $couleur = "noir";
     public $poids = 1500;
