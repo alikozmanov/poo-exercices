@@ -7,7 +7,12 @@ class Vehicule {
     private $couleur = "noir"; 
     private $poids = 1500;
 
+    function __construct($couleur, $poids) {
+        $this->couleur = $couleur;
+        $this->poids = $poids;
 
+    }
+    
     // méthode publique
     public function rouler() { 
         return "Le véhicule roule";
