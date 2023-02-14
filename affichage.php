@@ -1,7 +1,7 @@
 
 <?php
 
-// Chargement de la classe 
+// Chargement 
 include("Vehicule.php");
 
 class Vehicule {
@@ -14,7 +14,7 @@ class Vehicule {
 
     $mon_Vehicule = new Vehicule();
     $mon_Vehicule->poids += 70;
-    echo "le nouveau poids du vehicule est de ".$mon_Vehicule->poids . "kg";
+    echo "le nouveau poids du vehicule est de ". $mon_Vehicule->poids . "kg";
 
 }
 ?>
