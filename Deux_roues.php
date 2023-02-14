@@ -1,16 +1,25 @@
 
 <?php
 
-class Vehicule extends Deux_roues {
+class Deux_roues extends Vehicule
+{
 
-    // déclaration des attributs
     private $cylindree;
 
-    // méthode publique
-    public function mettre_essence($nombre_litre) { 
-        $this->reservoire += $nombre_litre;
+
+    public function getCylindree()
+    {
+        return $this->cylindree; 
     } 
+    public function setCylindree($cylindree)
+    {
+        $this->cylindree = $cylindree; 
+    }
+
+  
+    public function mettre_essence($nombre_litre)
+    {
+
+    }
 
 }
-
-?>
