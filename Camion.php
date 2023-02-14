@@ -1,22 +1,20 @@
 <?php
 
-class Camion extends Quatre_roues
-{
+class Camion extends Quatre_roues {
+    
+    // déclaration des attributs
     private $longueur;
 
- 
-    public function getLongueur()
-    {
+    // méthode publique
+    public function getLongueur() {
         return $this->longueur; 
     }
-    public function setLongueur($longueur)
-    {
+    
+    public function setLongueur($longueur) {
         $this->longueur = $longueur; 
     }
 
-
-    public function ajouter_remorque($longueur_remorque)
-    {
+    public function ajouter_remorque($longueur_remorque) {
 
     }
 
